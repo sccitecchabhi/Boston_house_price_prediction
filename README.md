@@ -1,137 +1,108 @@
-🏡 Boston House Price Prediction
+# 🏡 Boston House Price Prediction
 
-An End-to-End Machine Learning project that predicts house prices using various housing features.
+<div align="center">
 
-🌟 Overview
+### An End-to-End Machine Learning Regression Project
 
-The Boston House Price Prediction project uses Machine Learning techniques to predict the median value of houses based on different features such as crime rate, number of rooms, property tax, accessibility, and other important factors.
+Predicting Boston house prices using Machine Learning and deploying the model with Streamlit.
 
-This project demonstrates a complete Machine Learning workflow, from data preprocessing and exploration to model training, evaluation, and making predictions.
+[🚀 Live Demo](https://boston-house-predict.streamlit.app/) • [🐙 GitHub](https://github.com/sccitecchabhi/Boston_house_price_prediction)
 
-🚀 Project Highlights
+</div>
 
-✨ End-to-End Machine Learning Workflow
-📊 Exploratory Data Analysis (EDA)
-🧹 Data Preprocessing
-🤖 Regression Model Training
-📈 Model Performance Evaluation
-🔮 House Price Prediction
-💾 Model Saving using Joblib
+---
 
-🔄 Machine Learning Workflow
-📂 Dataset
-    │
-    ▼
-🔍 Data Understanding
-    │
-    ▼
-🧹 Data Preprocessing
-    │
-    ▼
-📊 Exploratory Data Analysis
-    │
-    ▼
-✂️ Train-Test Split
-    │
-    ▼
-🤖 Model Training
-    │
-    ▼
-📈 Model Evaluation
-    │
-    ▼
-🔮 House Price Prediction
-    │
-    ▼
-💾 Save Trained Model
+## 📌 Project Overview
 
-📂 Project Structure
-Boston_house_price_prediction/
-│
-├── 📓 Boston_house_price_prediction.ipynb
-├── 🤖 model.pkl
-├── 📄 requirements.txt
-└── 📘 README.md
+The **Boston House Price Prediction** project is an end-to-end Machine Learning regression application designed to predict house prices based on different housing-related features.
 
-Note: File names can be updated according to your actual project structure.
+The project demonstrates the complete Machine Learning workflow, including **data understanding, preprocessing, exploratory data analysis, model training, evaluation, prediction, model saving, and deployment using Streamlit**.
 
-🛠️ Tech Stack
-Technology	Purpose
-🐍 Python	Programming Language
-🐼 Pandas	Data Manipulation
-🔢 NumPy	Numerical Operations
-🤖 Scikit-learn	Machine Learning
-📊 Matplotlib	Data Visualization
-📈 Seaborn	Statistical Visualization
-💾 Joblib	Model Saving and Loading
-📓 Jupyter Notebook	Model Development
-🤖 Machine Learning
+Users can interact with the deployed web application, provide housing-related input values, and receive a predicted house price.
 
-This project focuses on a Regression Problem, where the goal is to predict a continuous numerical value: house price.
+---
 
-Possible Models
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-Gradient Boosting Regressor
+## 🚀 Live Application
 
-The best-performing model can be selected based on its evaluation results.
+<div align="center">
 
-📊 Model Evaluation Metrics
+### 🌐 Try the Application Here
 
-The model performance is evaluated using:
+👉 **[Click Here to Open the Boston House Price Prediction App](https://boston-house-predict.streamlit.app/)**
 
-Metric	Description
-MAE	Mean Absolute Error
-MSE	Mean Squared Error
-RMSE	Root Mean Squared Error
-R² Score	Measures how well the model explains the data
+</div>
 
-🔮 Making Predictions
+| Application | Status |
+|---|---|
+| 🏡 Boston House Price Prediction | 🟢 Live |
+| 🌐 Deployment Platform | Streamlit |
+| 🤖 Model Type | Regression |
+| 🐍 Language | Python |
 
-After training the model, you can predict house prices using new housing data:
+---
 
-prediction = model.predict(new_data)
+## 🎯 Project Objective
 
-If using Jupyter Notebook:
+The main objective of this project is to build a Machine Learning model capable of predicting house prices and understand the complete end-to-end ML workflow.
 
-jupyter notebook
+Through this project, the following concepts are implemented:
 
-Then open:
+- 📂 Understanding the housing dataset
+- 🧹 Data preprocessing and preparation
+- 🔍 Exploratory Data Analysis (EDA)
+- ✂️ Splitting data into training and testing sets
+- 🤖 Training Machine Learning regression models
+- 📊 Evaluating model performance
+- 🔮 Predicting house prices
+- 💾 Saving the trained model using Joblib
+- 🌐 Building and deploying an interactive Streamlit application
 
-Boston_house_price_prediction.ipynb
+---
 
-📦 Requirements
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-joblib
-jupyter
+## ✨ Project Highlights
 
+| Feature | Description |
+|---|---|
+| 📊 Data Analysis | Understanding and exploring the housing dataset |
+| 🧹 Data Preprocessing | Preparing data for Machine Learning |
+| 🔍 EDA | Identifying patterns and relationships in the data |
+| 🤖 Machine Learning | Training regression models for prediction |
+| 📈 Model Evaluation | Measuring model performance using regression metrics |
+| 🔮 Prediction | Predicting house prices from user input |
+| 💾 Model Saving | Saving the trained model using Joblib |
+| 🌐 Web Application | Interactive user interface built with Streamlit |
+| 🚀 Deployment | Live deployment for real-time predictions |
 
-## 🚀 Live Demo
+---
 
-### 🌐 Try the Application
+## 🔄 Machine Learning Workflow
 
-👉 **[Click here to use the Boston House Price Prediction App](https://boston-house-predict.streamlit.app/)**
-
-🔗 **Live App:** https://boston-house-predict.streamlit.app/
-
-🎯 Project Objective
-
-The main objective of this project is to:
-
-Understand a real-world Regression Problem
-Perform data preprocessing
-Explore and analyze housing data
-Train a Machine Learning model
-Evaluate model performance
-Predict house prices for new data
-Understand the complete end-to-end ML pipeline
-
-
-👨‍💻 Author
-Abhinay Kr. Sah
-🐙 GitHub: sccitecchabhi
+```text
+                    📂 Dataset
+                        │
+                        ▼
+               🔍 Data Understanding
+                        │
+                        ▼
+              🧹 Data Preprocessing
+                        │
+                        ▼
+          📊 Exploratory Data Analysis
+                        │
+                        ▼
+               ✂️ Train-Test Split
+                        │
+                        ▼
+               🤖 Model Training
+                        │
+                        ▼
+              📈 Model Evaluation
+                        │
+                        ▼
+              💾 Save Trained Model
+                        │
+                        ▼
+              🌐 Streamlit Application
+                        │
+                        ▼
+                🔮 House Price Prediction
